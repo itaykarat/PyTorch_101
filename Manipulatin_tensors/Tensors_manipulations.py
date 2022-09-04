@@ -110,6 +110,7 @@ class tensor_manipulations:
 
 if __name__ == '__main__':
     """
+    Func stack:
     * addition
     * subtraction
     * subtraction_scalar_tensor1
@@ -121,6 +122,15 @@ if __name__ == '__main__':
     * Matrix_multiplication
     * manual_matmul
     * compare_manual_vs_torch_implementation
+    """
+
+    """
+    Deep learning quick peek:
+    Neural networks are full of matrix multiplications and dot products!
+
+    The torch.nn.Linear() module (we'll see this in action later on), also known as a feed-forward layer or fully 
+    connected layer, implements a matrix multiplication between an input x and a weights matrix A. 
+     {Similar to perceptron --> check out my git repo!}
     """
 
     Primitive_type_input1 = [[[1, 2, 3], [3, 6, 9], [2, 4, 5]]]
