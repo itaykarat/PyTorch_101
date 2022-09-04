@@ -6,7 +6,6 @@ class aggregation:
         self.tensor = self.create_tensor()
 
 
-
     def create_tensor(self):
         new_tensor = torch.arange(0, 100, 10) # create a tensor with elements from 0 to 100 with step of 10 between elements
                                               # will look like tensor([ 0, 10, 20, 30, 40, 50, 60, 70, 80, 90])
@@ -22,7 +21,6 @@ class aggregation:
 
     def get_mean(self):
         return self.tensor.type(torch.float32).mean()
-
 
     def get_sum(self):
         return self.tensor.sum()
