@@ -133,6 +133,21 @@ if __name__ == '__main__':
      {Similar to perceptron --> check out my git repo!}
     """
 
+    """
+    * x is the input to the layer (deep learning is a stack of layers like torch.nn.Linear() and others on top of 
+      each other). 
+      
+    * A is the weights matrix created by the layer, this starts out as random numbers that get adjusted as 
+      a neural network learns to better represent patterns in the data (notice the "T", that's because the weights 
+      matrix gets transposed).
+    
+    Note: You might also often see W or another letter like X used to showcase the weights matrix.
+    
+    * b is the bias term used to slightly offset the weights and inputs.
+    * y is the output (a manipulation of the input in the hopes to discover patterns in it). 
+    This is a linear function (you may have seen something like  y = ax + b 
+    and can be used to draw a straight line! """
+
     Primitive_type_input1 = [[[1, 2, 3], [3, 6, 9], [2, 4, 5]]]
     Primitive_type_input2 = [[[8, 5, 4], [3, 6, 9], [5, 4, 3]]]
     tensor_ops = tensor_manipulations(Primitive_type_input1, Primitive_type_input2)
